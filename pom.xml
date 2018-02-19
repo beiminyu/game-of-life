@@ -302,10 +302,6 @@
                         <configuration>
                             <reportPlugins>
                                 <plugin>
-                                    <artifactId>maven-project-info-reports-plugin</artifactId>
-                                    <version>2.7</version>
-                                </plugin>
-                                <plugin>
                                     <groupId>org.jacoco</groupId>
                                     <artifactId>jacoco-maven-plugin</artifactId>
                                     <version>0.7.2.201409121644</version>
@@ -432,6 +428,10 @@
                             </formats>
                         </configuration>
                     </plugin>
+					<plugin>
+						<artifactId>maven-project-info-reports-plugin</artifactId>
+						<version>2.7</version>
+					</plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
